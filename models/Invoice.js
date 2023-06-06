@@ -32,7 +32,7 @@ const InvoiceSchema = new Schema({
     type: String,
   },
   pending_amount: {
-    type: String,
+    type: Number,
   },
   collection_date: {
     type: String,
