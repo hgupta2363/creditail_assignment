@@ -29,7 +29,7 @@ app.post('/createOrder', (req, res) => {
     }
   );
 });
-router.post('/success', async (req, res) => {
+app.post('/success', async (req, res) => {
   try {
     // getting the details back from our font-end
     const {
