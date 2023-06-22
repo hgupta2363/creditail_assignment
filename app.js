@@ -1,6 +1,5 @@
 const express = require('express');
-const invoiceRouter = require('./router/invoices');
-const invoicePaymnentRouter = require('./router/invoicePayment');
+
 const cors = require('cors');
 const Razorpay = require('razorpay');
 const PORT = 8000;
