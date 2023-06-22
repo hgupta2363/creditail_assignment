@@ -6,6 +6,11 @@ router.get('/invoices', async (req, res) => {
   const allInvoices = await Invoices.find();
   res.json(allInvoices);
 });
+router.get('/paymnet', async (req, res) => {
+  console.log('invoices');
+  const allInvoices = await Invoices.find();
+  res.json(allInvoices);
+});
 router.post('/invoices', async (req, res) => {
   const newInvoiceData = req.body;
   try {
